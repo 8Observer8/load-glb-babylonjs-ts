@@ -1,0 +1,17 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "module": "AMD",
+        "sourceMap": true,
+        "types": [
+            "babylonjs",
+            "babylonjs-loaders",
+            "babylonjs-gltf2interface",
+            "requirejs"
+        ],
+        "lib": [
+            "DOM",
+            "ES2015"
+        ]
+    }
+}
